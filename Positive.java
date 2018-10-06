@@ -1,10 +1,9 @@
 import java.util.*;
-public class Main {
+public class Positive {
   public static void main(String[] args) {
   
         int n;
         Scanner s = new Scanner(System.in);
-        System.out.print(" ");
         n = s.nextInt();
         
         if(n > 0)
