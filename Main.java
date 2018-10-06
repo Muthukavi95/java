@@ -17,7 +17,7 @@ public class Main {
         }
         else
         {
-            System.out.println(" "+n+" zero");
+            System.out.println(" "+n+" Zero");
         }
       
   }
