@@ -9,15 +9,15 @@ public class Main {
         
         if(n > 0)
         {
-            System.out.println(" "+n+"  Positive");
+            System.out.println("Positive");
         }
         else if(n < 0)
         {
-            System.out.println(" "+n+"  Negative");
+            System.out.println("Negative");
         }
         else
         {
-            System.out.println(" "+n+" Zero");
+            System.out.println("Zero");
         }
       
   }
