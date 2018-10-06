@@ -2,23 +2,22 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
   
-        int num,x,y;
+        int n;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number you want to check:");
-        x = s.nextInt();
-        num = s.nextInt();
-        y=num+x;
-        if(y > 0)
+        System.out.print(" ");
+        n = s.nextInt();
+        
+        if(n > 0)
         {
-            System.out.println("The given number "+y+" is Positive");
+            System.out.println(" "+n+"  Positive");
         }
-        else if(y < 0)
+        else if(n < 0)
         {
-            System.out.println("The given number "+y+" is Negative");
+            System.out.println(" "+n+"  Negative");
         }
         else
         {
-            System.out.println("The given number "+y+" is invalid");
+            System.out.println(" "+n+" zero");
         }
       
   }
