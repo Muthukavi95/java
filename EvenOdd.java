@@ -8,11 +8,11 @@ public class EvenOdd {
         int num = reader.nextInt();
 
         if(num % 2 == 0)
-            System.out.println( "  even");
+            System.out.println( "  Even");
         else if (num > 0)
-            System.out.println( "  odd");
+            System.out.println( "  Odd");
             else
-             System.out.println( " invalid");
+             System.out.println( " Invalid");
 
     }
 }
